@@ -3,6 +3,6 @@ def make_sandwich(element1, element2)
   yield(base)
 end
  
-make_sandwich("gator", "gumbo") do |innards|
+puts make_sandwich("gator", "gumbo") do |innards|
   "#{innards} on rye"
 end #=> "A gator and gumbo on rye"

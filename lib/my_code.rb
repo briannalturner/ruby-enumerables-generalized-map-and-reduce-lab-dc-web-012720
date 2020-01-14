@@ -4,7 +4,7 @@ end
 
 puts make_sandwich("Creamy peanut butter", "glittering sense of accomplishment") { |b| "#{b} on wheat" }
 
-def map(source_array)
+def my own map(source_array)
   new_arr = []
   index = 0
   

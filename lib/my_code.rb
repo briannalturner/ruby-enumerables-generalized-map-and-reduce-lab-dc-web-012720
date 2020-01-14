@@ -9,7 +9,7 @@ def map(source_array)
   index = 0
   
   while index < source_array.length do
-    
+    new_arr << (source_array yield)
     index += 1
   end
   new_arr

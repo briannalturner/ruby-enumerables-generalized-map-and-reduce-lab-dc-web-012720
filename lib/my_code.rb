@@ -14,5 +14,3 @@ def map(source_array)
   end
   new_arr
 end
-
-map(source_array) { |c| 

@@ -15,7 +15,7 @@ def map(source_array)
   new_arr
 end
 
-def reduce(source_array, starting_value = nil)
+def reduce(source_array, starting_value=nil)
   if starting_value
     total = starting_value
     index = 0 

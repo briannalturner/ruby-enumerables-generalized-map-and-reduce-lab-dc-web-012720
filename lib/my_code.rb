@@ -23,6 +23,5 @@ def reduce(source_array, starting_value = 0)
     total += (yield(source_array[index]))
     index += 1 
   end
-  
   total
 end

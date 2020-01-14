@@ -20,7 +20,7 @@ def reduce(source_array, starting_value = 0)
   index = 0 
   
   while index < source_array.length do
-    
+    total += (yield(source_array[index]))
     index += 1 
   end
   

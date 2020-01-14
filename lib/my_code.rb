@@ -17,6 +17,12 @@ end
 
 def reduce(source_array, starting_value = 0)
   total = starting_value
+  index = 0 
+  
+  while index < source_array.length do
+    
+    index += 1 
+  end
   
   total
 end

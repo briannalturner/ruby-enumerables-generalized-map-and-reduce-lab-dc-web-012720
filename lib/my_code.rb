@@ -5,4 +5,4 @@ end
  
 puts make_sandwich("gator", "gumbo") do |innards|
   "#{innards} on rye"
-end #=> "A gator and gumbo on rye"
+end

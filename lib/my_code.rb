@@ -9,7 +9,7 @@ def my_own_map(source_array)
   index = 0
   
   while index < source_array.length do
-    new_arr << (yield(source_array))
+    new_arr << (yield(source_array[index]))
     index += 1
   end
   new_arr
